@@ -1,0 +1,523 @@
+.user-input {
+  @apply h-10 w-full border-b-2 border-gray-300 text-gray-900 placeholder-transparent focus:outline-none focus:border-blue-600;
+}
+
+.user-data-label {
+  position: absolute;
+  left: 0;
+  top: -0.875rem;
+  color: #4b5563;
+  font-size: 0.875rem;
+  transition-property: all;
+  transition-duration: 0.2s;
+}
+
+.user-data-label1 {
+  position: absolute;
+  left: 0;
+  top: -0.875rem;
+  color: #4b5563;
+  font-size: 0.875rem;
+  transition-property: all;
+  transition-duration: 0.2s;
+}
+
+.user-textarea-input {
+  height: 2.5rem;
+  width: 100%;
+  border-bottom-width: 2px;
+  border-color: #d1d5db;
+  color: #4b5563;
+  outline: none;
+  resize: none;
+  padding-left: 0.625rem;
+  padding-right: 10px;
+  padding-top: 0.6875rem;
+  padding-bottom: 5.0625rem;
+  overflow: hidden;
+}
+
+.user-textarea-label {
+  position: absolute;
+  left: 0;
+  top: 4rem; 
+  color: #4b5563; 
+  font-size: 0.875rem; 
+  transition-property: all;
+  transition-duration: 0.2s;
+}
+
+.success-label{
+  color: #6EE7B7;
+  font-weight: 600;
+  font-size: 1.5rem; 
+  padding-top: 2rem; 
+  padding-bottom: 2rem;
+}
+
+/* input type number style  */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+/* submit-btn styles & effects */
+.submit-btn:hover {
+  animation: pulse 1s infinite;
+  transition: 0.3s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 1900px) {
+  .header {
+    padding: 20px 135px 0px 135px;
+    /* background-image: url("/src/assets/mobile-banner-1.png"); */
+  }
+  .form-inner-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .form-container {
+    width: 1170px;
+    height: 411px;
+    padding: 70px 62.5px 70px 62.5px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  /* .user-data {
+    flex-direction: row;
+  } */
+  .user-data {
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .user-data-inner {
+    gap: 1rem;
+  }
+  .user-data-label {
+    margin-left: 0.5rem;
+  }
+  .user-data-label1 {
+    margin-left: 17.5rem;
+  }
+  .map-banner-img {
+    background-image: url("/src/assets/Mapsicle-Map.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .map-address-main {
+    position: absolute;
+    top: 162px;
+    left: 135px;
+  }
+  .map-address {
+    width: 486px;
+    height: 315px;
+  }
+  .service-banners {
+    display: flex;
+    padding: 81px 135px 81px 135px;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .header {
+    padding: 20px 135px 0px 135px;
+    /* background-image: url("/src/assets/mobile-banner-1.png"); */
+  }
+  .form-inner-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .form-container {
+    width: 1170px;
+    height: 411px;
+    padding: 70px 62.5px 70px 62.5px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 8.5rem;
+    margin-right: 5rem;
+  }
+  /* .user-data {
+    flex-direction: row;
+  } */
+  .user-data {
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .user-data-inner {
+    gap: 1rem;
+  }
+  .user-data-label {
+    margin-left: 0.5rem;
+  }
+  .user-data-label1 {
+    margin-left: 17.5rem;
+  }
+  .map-banner-img {
+    background-image: url("/src/assets/Mapsicle-Map.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .map-address-main {
+    position: absolute;
+    top: 162px;
+    left: 135px;
+  }
+  .map-address {
+    width: 486px;
+    height: 315px;
+  }
+  .service-banners {
+    display: flex;
+    padding: 81px 135px 81px 135px;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .header {
+    padding: 20px 135px 0px 135px;
+    /* background-image: url("/src/assets/mobile-banner-1.png"); */
+  }
+  .form-inner-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .form-container {
+    width: 1170px;
+    height: 411px;
+    padding: 70px 62.5px 70px 62.5px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 8.5rem;
+    margin-right: 5rem;
+  }
+  .user-data {
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .user-data-inner {
+    gap: 1rem;
+  }
+  .user-data-label {
+    margin-left: 0.5rem;
+  }
+  .user-data-label1 {
+    margin-left: 17.5rem;
+  }
+  .map-banner-img {
+    background-image: url("/src/assets/Mapsicle-Map.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .map-address-main {
+    position: absolute;
+    top: 162px;
+    left: 135px;
+  }
+  .map-address {
+    width: 486px;
+    height: 315px;
+  }
+  .service-banners {
+    display: flex;
+    padding: 81px 135px 81px 135px;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .form-container {
+    width: 1050px;
+    height: 691px;
+    padding: 40px 35px 40px 35px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 9rem;
+    margin-right: 6rem;
+  }
+  .form-inner-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .user-data {
+    flex-direction: column;
+    gap: 3rem;
+    /* margin-top: 2rem; */
+  }
+  .user-data-inner {
+    gap: 2rem;
+  }
+  .user-data-label {
+    margin-left: 0.5rem;
+  }
+  .user-data-label1 {
+    margin-left: 17rem;
+  }
+  .service-banners {
+    padding: 81px 135px 81px 135px;
+    display: flex;
+    padding: 81px 135px 81px 135px;
+    gap: 50px;
+  }
+  
+}
+
+@media (max-width: 1024px) {
+  .form-container {
+    width: 850px;
+    height: 691px;
+    padding: 40px 35px 40px 35px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+  .form-inner-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .user-data {
+    flex-direction: column;
+    gap: 3rem;
+    /* margin-top: 2rem; */
+  }
+  .user-data-inner {
+    gap: 2rem;
+  }
+  .user-data-label {
+    margin-left: 0.5rem;
+  }
+  .user-data-label1 {
+    margin-left: 26rem;
+  }
+  .service-banners {
+    padding: 81px 105px 81px 105px;
+    display: flex;
+    padding: 81px 100px 81px 100px;
+    gap: 50px;
+  }
+  .map-banner-img {
+    background-image: url("/src/assets/Mapsicle-Map.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .map-address-main {
+    position: absolute;
+    top: 162px;
+    left: 95px;
+  }
+  .map-address {
+    width: 486px;
+    height: 315px;
+  }
+}
+
+@media (max-width: 768px) {
+  .form-container {
+    width: 640px;
+    height: 691px;
+    padding: 40px 35px 40px 35px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .form-inner-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .user-data {
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .service-banners {
+    padding: 81px 85px 81px 75px;
+    display: grid;
+    grid-template-columns: 160px 160px 160px;
+    grid-row: auto auto;
+  }
+  .user-data-label {
+    margin-left: 0.5rem;
+  }
+  .user-data-label1 {
+    margin-left: 20rem;
+  }
+}
+
+@media (max-width: 428px) {
+  .header {
+    padding: 40px 35.5px 20px 35.5px;
+  }
+  .form-container {
+    width: 340px;
+    height: 691px;
+    padding: 40px 35.5px 20px 35.5px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .form-heading {
+    font-size: 25px;
+  }
+  .form-inner-container {
+    flex-direction: column;
+    width: 290px;
+    height: 691px;
+  }
+  .user-data {
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .user-data-inner {
+    flex-direction: column;
+  }
+  .user-data-label {
+    margin-left: 0.5rem;
+  }
+  .user-data-label1 {
+    margin-left: 0.5rem;
+    margin-top: 4rem;
+  }
+  .map-banner-img {
+    background-image: url("/src/assets/Mapsicle-Map-Mobile.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .map-address-main {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+  .footer-bottom {
+    display: none;
+  }
+  .map-address {
+    width: 340px;
+    height: 309px;
+  }
+  .service-banners {
+    display: grid;
+    grid-template-columns: 160px 160px;
+    grid-row: auto auto;
+    grid-row-gap: 20px;
+    padding: 81px 10px 81px 20px;    
+  }
+  .success-label{
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .header {
+    padding: 40px 35.5px 20px 35.5px;
+  }
+  .form-container {
+    width: 280px;
+    height: 691px;
+    padding: 40px 0.5px 20px 0.5px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .form-heading {
+    font-size: 25px;
+  }
+  .form-inner-container {
+    padding: 1rem;
+    flex-direction: column;
+    width: 100%;
+    height: 691px;
+  }
+  .user-input {
+    width: 220px;
+  }
+  .user-data {
+    flex-direction: column;
+  }
+  .user-data-inner {
+    flex-direction: column;
+  }
+  .user-data-label {
+    margin-left: 0.5rem;
+  }
+  .user-data-label1 {
+    margin-left: 0.5rem;
+    margin-top: 3rem;
+  }
+  .map-banner-img {
+    background-image: url("/src/assets/Mapsicle-Map-Mobile.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .map-address-main {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+  .footer-bottom {
+    display: none;
+  }
+  .map-address {
+    width: 290px;
+    height: 309px;
+    padding: 45px !important;
+  }
+  .service-banners {
+    display: grid;
+    grid-template-columns: 160px 160px;
+    grid-row: auto auto;
+    grid-row-gap: 20px;
+    padding: 81px 10px 81px 10px;
+    gap: 2px;
+  }
+  .user-textarea-input {
+    width: 220px;
+  }
+  .success-label{
+    font-size: 0.75rem;
+  }
+}
